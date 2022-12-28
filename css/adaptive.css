@@ -28,12 +28,16 @@
   #footer .row_flex .col_footer_1,
   #footer .row_flex .col_footer_3 {
     width: 48%;
-    order: 2; }
+    -webkit-box-ordinal-group: 3;
+        -ms-flex-order: 2;
+            order: 2; }
 
   #footer .row_flex .col_footer_2 {
     width: 100%;
     margin-bottom: 30px;
-    order: 1; }
+    -webkit-box-ordinal-group: 2;
+        -ms-flex-order: 1;
+            order: 1; }
 
   /* */ }
 /* Small Devices, Tablets */
@@ -112,8 +116,10 @@
           position: relative;
           top: auto;
           background-color: #FCFDFF;
-          box-shadow: none;
-          animation: none;
+          -webkit-box-shadow: none;
+                  box-shadow: none;
+          -webkit-animation: none;
+                  animation: none;
           padding-left: 15px; }
 
   #header .inner_header .right_header .menu_top > li.has_sub_menu::after {
@@ -137,7 +143,8 @@
     font-size: 14px; }
 
   .main_banner .main_banner_info > .btns {
-    flex-wrap: wrap; }
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap; }
     .main_banner .main_banner_info > .btns > a {
       display: block;
       width: 100%; }
