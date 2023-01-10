@@ -62,7 +62,7 @@ img {
   color: #722ED1;
   border: 1px solid #722ED1;
   font-weight: 600;
-  padding: 6px 34px;
+  padding: 10px 40px;
   -webkit-transition: all 0.4s ease;
   transition: all 0.4s ease;
   text-decoration: none;
@@ -94,8 +94,7 @@ img {
 #top_banner {
   background-size: cover;
   background-repeat: no-repeat;
-  background-position: center;
-  height: 100vh; }
+  background-position: center; }
 
 #header .inner_header {
   padding-top: 24px;
